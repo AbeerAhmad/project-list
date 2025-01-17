@@ -45,7 +45,7 @@ export function DataTable<TData>({
           maxWidth: "100%",
           overflowX: "auto",
           mt: "30px",
-          bgcolor: "white",
+      
           borderRadius: "10px",
         }}
         className={baseClass}
@@ -62,7 +62,7 @@ export function DataTable<TData>({
                     fontSize: "0.875rem",
                     fontWeight: 500,
                     padding: "16px",
-                    color: "#333",
+                   
                   }}
                 >
                   {column.label}
@@ -83,7 +83,7 @@ export function DataTable<TData>({
                         sx={{
                           padding: "16px",
                           fontSize: "0.875rem",
-                          color: "#333",
+                        
                         }}
                       >
                         <Skeleton
@@ -116,7 +116,7 @@ export function DataTable<TData>({
                       sx={{
                         padding: "16px",
                         fontSize: "0.875rem",
-                        color: "#333",
+                       
                         textWrap: "nowrap",
                       }}
                     >
@@ -133,7 +133,7 @@ export function DataTable<TData>({
                   sx={{
                     padding: "16px",
                     fontSize: "0.875rem",
-                    color: "#333",
+                  
                     textWrap: "nowrap",
                   }}
                 >
